@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE myportfolio PUBLIC "part2"
+	"part2.dtd">
 <myportfolio>
 	<mycompetencies>
 		<!-- Five letter grade system. "A" being the highest and "F" for failed -->
