@@ -1,0 +1,22 @@
+{
+    "type" : "object",
+    "properties" : {
+    	"users" : {
+    		"type" : "array",
+    		"items" : {
+    		"type" : "object",
+    		"properties" : {
+    			"login" : {
+    				"type" : "string",
+    				"uniqueItems" : true
+    			},
+    			"password" : {
+    				"type" : "string",
+    				"minLength" : 2
+    			}
+    		},
+    		"required" : ["login", "password"]
+    	}
+    }
+  }   	
+}
