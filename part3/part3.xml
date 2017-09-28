@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE statistics PUBLIC "part3"
+	"part3.dtd">
+<statistics>
+	<info>
+		<ips>
+			<ip addr="077.234.203.101" frequency="12"/>
+      <ip addr="005.144.096.251" frequency="11"/>
+      <ip addr="081.222.086.058" frequency="6"/>
+      <ip addr="094.019.018.060" frequency="4"/>
+      <ip addr="005.164.066.173" frequency="4"/>
+		</ips>
+		<desktop>
+			<entry platform="Windows" frequency="81" />
+			<entry platform="Linux" frequency="8" />
+			<entry platform="Macintosh" frequency="6" />
+		</desktop>
+		<mobile>
+			<entry platform="iPhone" frequency="4" />
+			<entry platform="iPad" frequency="1" />
+			<entry platform="Android" frequency="10" />
+		</mobile>
+	</info>
+	<log>
+		<visit date="08.09" time="03:32" platform="Macintosh" ip="083.102.198.041" />
+		<visit date="09.09" time="16:25" platform="Windows" ip="005.018.212.024" />
+		<visit date="10.09" time="09:00" platform="Windows" ip="078.037.140.237" />
+		<visit date="12.09" time="10:32" platform="Linux" ip="094.019.018.060" />
+		<visit date="14.09" time="17:07" platform="Macintosh" ip="091.122.125.243" />
+		<!-- 
+			rest of the visits as the long list goes here 
+		-->
+	</log>	
+</statistics>
+<!--  Kovechenkov Vladislav -->

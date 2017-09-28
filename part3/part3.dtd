@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT statistics (info, log) >
+<!ELEMENT log (visit+) >
+<!ELEMENT visit EMPTY >
+<!ATTLIST visit 
+	date CDATA #REQUIRED
+	time CDATA #REQUIRED
+	platform CDATA #REQUIRED
+	ip CDATA #REQUIRED >
+
+<!ELEMENT info (ips, desktop?, mobile?)>
+<!ELEMENT desktop (entry+) >
+<!ELEMENT mobile (entry+) >
+<!ELEMENT entry EMPTY >
+<!ATTLIST entry
+	platform CDATA #REQUIRED
+	frequency CDATA #REQUIRED >
+
+<!ELEMENT ips (ip+) >
+<!ELEMENT ip EMPTY >
+<!ATTLIST ip
+	addr CDATA #REQUIRED
+	frequency CDATA #REQUIRED >
+	<!--  Kovechenkov Vladislav -->
